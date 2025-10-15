@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Snazzy Paws Grooming</title>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <a href="index.html" id="logo-brand">Snazzy Paws Grooming</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="current">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <section>
+            <h1>Book a Service</h1>
+            <form action="#" method="post">
+                <label for="owner-name">Owner's Name:</label>
+                <input type="text" id="owner-name" name="owner-name" aria-label="Owner's Name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" aria-label="Email Address" required>
+                <label for="dog-name">Dog's Name:</label>
+                <input type="text" id="dog-name" name="dog-name" aria-label="Dog's Name" required>
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" aria-label="Breed">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" aria-label="Age">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="opening-hours">
+            <h2>Opening Hours:</h2>
+            <p>Mon - Fri: 9am - 6pm</p>
+            <p>Sat: 10am - 4pm</p>
+            <p>Sun: Closed</p>
+        </div>
+        <p>&copy; 2025 Snazzy Paws Grooming. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
